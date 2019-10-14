@@ -31,7 +31,7 @@ function watchForm(){
 					 let titlevideo = responseJson.items[i].snippet.title;
 					//console.log(responseJson.items[i].id.videoId);
 					
-					$('#items').append(`<li> <div width="60%" align="center"> <h3>`+ titlevideo +`</h3> <a href="https://www.youtube.com/watch?v=` + responseJson.items[i].id.videoId + `" target="_blank"> <img src="`+thumbnail+`" width = "30%" height="30%"></a>
+					$('#items').append(`<li> <div width="60%" align="center">  <a href="https://www.youtube.com/watch?v=` + globaljson.items[i].id.videoId + `" target="_blank"><h3>`+ titlevideo +`</h3></a> <a href="https://www.youtube.com/watch?v=` + responseJson.items[i].id.videoId + `" target="_blank"> <img src="`+thumbnail+`" width = "30%" height="30%"></a>
 					</div></li>  
 					`)
 					
@@ -63,7 +63,7 @@ function watchForm(){
 					 let titlevideo = globaljson.items[i].snippet.title;
 					//console.log(responseJson.items[i].id.videoId);
 					
-					$('#items').append(`<li> <div width="60%" align="center"> <h3>`+ titlevideo +`</h3> <a href="https://www.youtube.com/watch?v=` + globaljson.items[i].id.videoId + `" target="_blank"> <img src="`+thumbnail+`" width = "30%" height="30%"></a>
+					$('#items').append(`<li> <div width="60%" align="center"> <a href="https://www.youtube.com/watch?v=` + globaljson.items[i].id.videoId + `" target="_blank"> <h3>`+ titlevideo +`</h3></a> <a href="https://www.youtube.com/watch?v=` + globaljson.items[i].id.videoId + `" target="_blank"> <img src="`+thumbnail+`" width = "30%" height="30%"></a>
 					</div></li>  
 					`)
 					
@@ -87,7 +87,7 @@ function watchForm(){
 					 let titlevideo = globaljson.items[i].snippet.title;
 					//console.log(responseJson.items[i].id.videoId);
 					
-					$('#items').append(`<li> <div width="60%" align="center"> <h3>`+ titlevideo +`</h3> <a href="https://www.youtube.com/watch?v=` + globaljson.items[i].id.videoId + `" target="_blank"> <img src="`+thumbnail+`" width = "30%" height="30%"></a>
+					$('#items').append(`<li> <div width="60%" align="center"> <a href="https://www.youtube.com/watch?v=` + globaljson.items[i].id.videoId + `" target="_blank"> <h3>`+ titlevideo +`</h3></a> <a href="https://www.youtube.com/watch?v=` + globaljson.items[i].id.videoId + `" target="_blank"> <img src="`+thumbnail+`" width = "30%" height="30%"></a>
 					</div></li>  
 					`)
 					
